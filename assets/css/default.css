@@ -69,6 +69,11 @@ html,body {
   text-decoration: none;
 }
 
+.header-block nav ul li a:hover {
+  color: #4089ED;
+  text-decoration: underline;
+}
+
 /* Diversity */
 
 .diversity-block
@@ -269,6 +274,12 @@ html,body {
   border: 1px solid #4089ED;
   border-radius: 55px;
   color: #4089ED;
+  cursor: pointer;
+}
+
+.diversity-policy-text button:hover
+{
+  background-color: #1F1534;
 }
 
 /* Collaborators */
@@ -312,6 +323,11 @@ html,body {
   color: #4089ED
 }
 
+.collaborators-block a:hover
+{
+  color:#1F1534;
+}
+
 .collaborators-block button
 {
   margin-top: 20pt;
@@ -320,6 +336,12 @@ html,body {
   border-radius: 55px;
   background-color: #E5E5E5;
   color: #4089ED;
+  cursor: pointer;
+}
+
+.collaborators-block button:hover
+{
+  background-color: #1F1534;
 }
 
 .collaborators-text
@@ -409,6 +431,11 @@ html,body {
 .footer-block div ul li a {
   color: #1F1534;
   text-decoration: none;
+}
+
+.footer-block div ul li a:hover {
+  color: #4089ED
+  ;
 }
 
 .foot-block-1 div p {
